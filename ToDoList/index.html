@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fun To-Do List</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="todo-container">
+
+    <h1>✨ My To-Do List ✨</h1>
+
+    <div class="input-group">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Enter your task..."
+      >
+
+      <button id="addBtn">➕</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <p id="emptyMessage" class="empty-message">
+      🎉 No tasks yet!
+    </p>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="style.js"></script>
+
+</body>
+</html>
